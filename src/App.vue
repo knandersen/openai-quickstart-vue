@@ -1,5 +1,7 @@
 <script setup>
 import { ref, nextTick } from 'vue'
+// use this for streaming instead of waiting for the response
+// import { createCompletionsChat } from './stream' 
 import { createCompletionsChat } from './text'
 
 const content = ref('')
